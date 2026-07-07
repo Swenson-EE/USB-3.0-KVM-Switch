@@ -275,3 +275,16 @@ The system shall recover from host connection and disconnection events.
 ### REL-003
 
 The system shall prevent invalid switching states.
+
+---
+
+# 8. Verification
+
+Each requirement shall be verified through one or more methods:
+
+| Method        | Description              |
+| ------------- | ------------------------ |
+| Test          | Hardware validation      |
+| Inspection    | Physical verification    |
+| Analysis      | Electrical/design review |
+| Demonstration | User operation           |
