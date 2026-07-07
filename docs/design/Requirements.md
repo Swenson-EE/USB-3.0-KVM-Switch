@@ -160,3 +160,33 @@ Target:
 The system shall maintain compliance with HDMI electrical requirements.
 
 ---
+
+# 3. Interface Requirements
+
+## 3.1 Host Interfaces
+
+The system shall provide:
+
+| Interface           | Quantity |
+| ------------------- | -------: |
+| USB Host Connection |        2 |
+| HDMI Input          |        2 |
+
+---
+
+## 3.2 User Interfaces
+
+The system shall provide:
+
+| Interface                | Quantity |
+| ------------------------ | -------: |
+| USB Peripheral Ports     |        4 |
+| Keyboard/Mouse HID Ports |        2 |
+| HDMI Output              |        1 |
+
+## 3.3 Control Interface
+
+The system shall provide:
+
+- Host selection input
+- Status indicators
