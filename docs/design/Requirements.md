@@ -180,7 +180,8 @@ The system shall provide:
 
 | Interface                | Quantity |
 | ------------------------ | -------: |
-| USB Peripheral Ports     |        4 |
+| USB-A Peripheral Ports   |        4 |
+| USB-C Peripheral Ports   |        1 |
 | Keyboard/Mouse HID Ports |        2 |
 | HDMI Output              |        1 |
 
