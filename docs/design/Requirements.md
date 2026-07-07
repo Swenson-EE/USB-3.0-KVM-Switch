@@ -224,3 +224,20 @@ The system shall include protection against:
 - Overcurrent
 - Reverse polarity
 - Short circuits
+
+---
+
+# 5. Firmware Requirements
+
+## 5.1 Controller Functions
+
+The firmware shall:
+
+- Monitor user input
+- Control switching devices
+- Manage status indicators
+- Handle startup initialization
+
+## 5.2 Firmware Updates
+
+The system shall provide a method for updating firmware.
