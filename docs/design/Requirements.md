@@ -113,3 +113,50 @@ Example:
 
 - Green LED: Host 1
 - Blue LED: Host 2
+
+---
+
+# 2. Performance Requirements
+
+## 2.1 Switching Performance
+
+### PR-SW-001
+
+The system shall complete host switching within an acceptable user-perceived delay.
+
+Target:
+< 2 seconds
+
+---
+
+### PR-SW-002
+
+The system shall transition USB and HDMI connections consistently during switching.
+
+---
+
+## 2.2 USB Performance
+
+### PR-USB-001
+
+The system shall support USB 3.1 Gen 2 data rates.
+
+Target:
+10 Gbps
+
+---
+
+## 2.3 HDMI Performace
+
+### PR-HDMI-001
+
+The system shall support the target HDMI resolution and refresh rate.
+
+Target:
+4k @ 60 Hz
+
+### PR-HDMI-002
+
+The system shall maintain compliance with HDMI electrical requirements.
+
+---
