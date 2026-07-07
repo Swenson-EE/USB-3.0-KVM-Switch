@@ -259,3 +259,19 @@ The system shall provide mechanical support for:
 ## 6.2 Thermal Requirements
 
 The enclosure shall maintain component temperatures within rated operating limits.
+
+---
+
+# 7. Reliability Requirements
+
+### REL-001
+
+The system shall operate continuously without user intervention.
+
+### REL-002
+
+The system shall recover from host connection and disconnection events.
+
+### REL-003
+
+The system shall prevent invalid switching states.
