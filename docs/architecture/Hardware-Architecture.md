@@ -81,7 +81,9 @@ Interfaces:
 
 ## Data Flow
 
-TODO
+The host computers will be selected through the switches, which will allow data transfer. The USB topology will allow for 2 USB-A ports for keyboard and mouse, 4 USB-A user ports, and 1 USB-C user port. The HDMI display will also allow for a switch to be applied to the output display.
+
+![Data Flow](../images/Peripheral-Topology.drawio.png)
 
 ## Design Decisions
 
