@@ -241,3 +241,21 @@ The firmware shall:
 ## 5.2 Firmware Updates
 
 The system shall provide a method for updating firmware.
+
+---
+
+# 6. Mechanical Requirements
+
+## 6.1 Enclosure
+
+The system shall provide mechanical support for:
+
+- Host connectors
+- USB ports
+- HDMI connectors
+- User controls
+- Status indicators
+
+## 6.2 Thermal Requirements
+
+The enclosure shall maintain component temperatures within rated operating limits.
