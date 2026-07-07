@@ -191,3 +191,36 @@ The system shall provide:
 
 - Host selection input
 - Status indicators
+
+---
+
+# 4. Power Requirements
+
+## 4.1 Power Input
+
+### PR_PWR-001
+
+The system shall operate from an external DC power source.
+
+Target:
+12 V input
+
+---
+
+## 4.2 Power Distribution
+
+The system shall provide regulated power rails for:
+
+- USB peripherals
+- Controller electronics
+- Signal switching devices
+
+---
+
+# 4.3 Protection
+
+The system shall include protection against:
+
+- Overcurrent
+- Reverse polarity
+- Short circuits
