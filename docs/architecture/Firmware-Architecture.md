@@ -60,6 +60,24 @@ Responsibilities:
 - Maintain system state
 - Maintain subsystem events
 
+Interface:
+
+```mermaid
+flowchart TD
+    KSM["KVM State Manager"]
+
+    KSM --> UI["User Input Manager"]
+    KSM --> USB["USB Switch Driver"]
+    KSM --> HDMI["HDMI Switch Driver"]
+    KSM --> LED["LED Manager"]
+
+    USB --> USBIC["USB Switch IC"]
+    HDMI --> HDMIIC["HDMI Switch IC"]
+    LED --> GPIO["MCU GPIO"]
+
+    UI --> BTN["Push Button"]
+```
+
 ---
 
 ## 3.2 KVM State Manager
@@ -101,14 +119,6 @@ Responsibilities:
 - Select active USB host
 - Configure switch IC
 - Verify switch state
-
-Interface:
-
-KVM State Manager
-|
-USB Switch Driver
-|
-USB Switch IC
 
 ## 3.4 HDMI Switch Driver
 
